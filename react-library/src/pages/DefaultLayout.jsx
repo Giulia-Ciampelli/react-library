@@ -1,4 +1,3 @@
-import MainMenu from "../components/MainMenu";
 import { Outlet } from "react-router-dom";
 
 // componenti

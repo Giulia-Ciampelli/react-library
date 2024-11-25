@@ -11,6 +11,8 @@
 :root {
   --dark-colour: #2F0147;
   --light-colour: #E2C2C6;
+  --success-colour: #81B29A;
+  --danger-colour: #E94F37;
 }
 
 /* #endregion common */
