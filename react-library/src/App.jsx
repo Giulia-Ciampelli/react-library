@@ -11,7 +11,6 @@ import DefaultLayout from "./components/DefaultLayout";
 
 // stile
 import './App.css';
-import DefaultLayout from "./components/DefaultLayout";
 
 function App() {
 

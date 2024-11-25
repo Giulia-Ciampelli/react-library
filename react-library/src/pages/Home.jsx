@@ -3,15 +3,12 @@ import MainMenu from "../components/MainMenu";
 export default function Home() {
     return (
         <>
-            <MainMenu />
-            <main>
-                <h1>
-                    Home page
-                </h1>
-            </main>
-            <footer>
-                &copy; {new Date().getFullYear()}
-            </footer>
+            <h1>
+                Home page
+            </h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi accusamus possimus quam vel iure inventore saepe at itaque rerum voluptatum libero modi cumque optio commodi perferendis voluptas, aliquid sunt! Autem?
+            </p>
         </>
     )
 }
