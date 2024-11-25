@@ -5,7 +5,7 @@ export default function About() {
         <>
             <header>
                 <div className="logo">
-                    logo
+                    LOGO
                 </div>
                 <MainMenu />
             </header>

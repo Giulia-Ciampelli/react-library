@@ -5,7 +5,7 @@ export default function Books() {
         <>
             <header>
                 <div className="logo">
-                    logo
+                    LOGO
                 </div>
                 <MainMenu />
             </header>
