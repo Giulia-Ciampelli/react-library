@@ -7,7 +7,7 @@ import Books from "./pages/Books";
 import About from "./pages/About";
 
 // layout
-import DefaultLayout from "./components/DefaultLayout";
+import DefaultLayout from "./pages/DefaultLayout";
 
 // stile
 import './App.css';
