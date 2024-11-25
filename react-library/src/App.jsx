@@ -1,25 +1,35 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+// pagine
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
 import Books from "./pages/Books";
 import About from "./pages/About";
+
+// layout
+import DefaultLayout from "./components/DefaultLayout";
+
+// stile
 import './App.css';
+import DefaultLayout from "./components/DefaultLayout";
 
 function App() {
 
   return (
-    <>
-      <BrowserRouter>
+    <BrowserRouter>
 
-        {/* le rotte vanno qui */}
-        <Routes>
+      {/* le rotte vanno qui */}
+      <Routes>
+
+        {/* come si mettono i compnenti? Con outlet */}
+        <Route element={<DefaultLayout />} >
           <Route path="/" element={<Home />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/books" element={<Books />} />
           <Route path="/about" element={<About />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+        </Route>
+      </Routes>
+    </BrowserRouter >
   )
 }
 
